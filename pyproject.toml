@@ -1,0 +1,14 @@
+[project]
+name = "drug-profile-api"
+version = "0.1.0"
+description = "MCP server implementation for yahoo finance integration"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "requests",
+    "uvicorn",
+    "dotenv",
+    "openai>=1.99.6",
+    "python-dotenv>=1.1.1",
+]
